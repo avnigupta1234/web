@@ -1,0 +1,60 @@
+/* div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:2;
+    animation-timing-function: ease-in;
+}
+div:hover{
+
+}
+@keyframes ani{
+    0%{
+        background-color: green;
+        width:400px;
+
+    }
+    20%{
+        background-color: aliceblue;
+        width:100vw;
+    }
+    50%{
+        background-color: blue;
+        height: 500px;
+    }
+    100%{
+        background-color: black; */
+        /* height: 400px;
+        width: 600px;
+        border-radius: 50%;
+    }
+} */
+
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 50%;
+    border: 5px solid black;
+    animation-name: avni;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+
+}
+@keyframes avni{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(85vh) rotate(360deg);
+    }
+}
